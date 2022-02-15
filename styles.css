@@ -88,7 +88,7 @@ a {
   border-bottom-left-radius: 80px;
 }
 
-.primary-text-1 {
+.lg-text-1 {
   color: #172b4d;
   font-size: 48px;
   font-weight: bolder;
@@ -172,6 +172,15 @@ a {
 
 .text-group {
   border: 1px solid black;
+}
+
+.lg-text-2 {
+  color: #172b4d;
+  font-size: 34px;
+  font-weight: bolder;
+  line-height: 48px;
+  margin-bottom: 8px;
+  letter-spacing: 0.37px;
 }
 
 .client {
