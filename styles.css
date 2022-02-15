@@ -29,6 +29,8 @@ a {
   width: 375px;
   margin: 0 auto;
   background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
 }
 
 .bg-color-1 {
