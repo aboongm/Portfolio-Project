@@ -2,16 +2,15 @@
 
 # Project Name
 
-> Portfolio: setup and mobile version skeleton
+> Welcome to Microverse
 
 ## Built With
 
 - HTML/CSS
-- StyleLint, Hint, Lighthouse
-- Figma
+- Linters - Stylelint, hint and lighthouse
 
 ## Authors
 
-👤 Aboong
+👤 **Author1**
 
 - GitHub: [@aboongm](https://github.com/aboongm)
