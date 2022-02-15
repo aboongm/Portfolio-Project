@@ -28,7 +28,12 @@ a {
 .container {
   width: 375px;
   margin: 0 auto;
-  border: 2px solid red;
+  background-color: #e5e5e5;
+}
+
+.bg-color-1 {
+  background-color: white;
+  border-bottom-left-radius: 80px;
 }
 
 /* navigator */
@@ -39,7 +44,6 @@ a {
   justify-content: space-between;
   padding: 5px 12px;
   height: 66px;
-  border: 2px solid black;
 }
 
 .logo {
@@ -49,7 +53,8 @@ a {
   padding: 10px 12px;
   height: 44px;
   color: #6070ff;
-  border: 2px solid red;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .normal-button {
@@ -67,8 +72,57 @@ a {
 }
 
 .menu-line {
-  width: 24px;
-  height: 3px;
+  width: 26px;
+  height: 4px;
   background-color: #6070ff;
   margin: 3px 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 20px;
+}
+
+.headline-inside {
+  color: #172b4d;
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 48px;
+  margin-bottom: 10px;
+  letter-spacing: 0.37px;
+}
+
+.headline-inside2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #344563;
+  margin: 10px 0;
+}
+
+.headline-inside3 {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 10px 0;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0;
+  width: 200px;
+  height: 40px;
+}
+
+.bg-image-1 {
+  position: absolute;
+  background-image: url("./assets/header-shapes\ mobile.svg");
+  width: 500px;
+  height: 680px;
+  background-repeat: no-repeat;
+  background-position: 0 20px;
 }
