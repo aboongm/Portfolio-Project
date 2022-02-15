@@ -82,6 +82,7 @@ a {
   padding: 100px 20px;
 }
 
+/* headline */
 .headline {
   background-color: white;
   border-bottom-left-radius: 80px;
@@ -128,4 +129,12 @@ a {
   height: 680px;
   background-repeat: no-repeat;
   background-position: 0 20px;
+}
+
+/* works */
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  padding: 100px 20px;
 }
