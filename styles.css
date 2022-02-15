@@ -36,7 +36,8 @@ a {
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 5px 12px;
   height: 66px;
   border: 2px solid black;
 }
