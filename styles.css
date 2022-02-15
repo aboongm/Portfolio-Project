@@ -22,7 +22,7 @@ ul {
 a {
   text-decoration: none;
   font-size: 1rem;
-  color: white;
+  color: #fff;
 }
 
 .container {
@@ -47,5 +47,27 @@ a {
   align-items: center;
   padding: 10px 12px;
   height: 44px;
+  color: #6070ff;
   border: 2px solid red;
+}
+
+.normal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+#icon-menu {
+  padding: 2px;
+}
+
+.menu-line {
+  width: 24px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 3px 0;
 }
