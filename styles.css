@@ -138,3 +138,16 @@ a {
   grid-row-gap: 20px;
   padding: 100px 20px;
 }
+
+.bg-img-container {
+  padding: 20px 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.snapshot-portfolio {
+  background-image: url("./assets/portfolio/tonic.svg");
+  width: 295px;
+  height: 220px;
+  background-repeat: no-repeat;
+}
