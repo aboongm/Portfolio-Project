@@ -135,7 +135,7 @@ a {
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  grid-row-gap: 20px;
+  grid-row-gap: 120px;
   padding: 100px 20px;
 }
 
@@ -295,7 +295,7 @@ a {
 }
 
 .skill-list {
-  padding: 20px 20px;
+  padding: 20px 20px 100px 20px;
 }
 
 .languages {
@@ -343,7 +343,6 @@ hr {
 .contact-me {
   background: #6070ff;
   border-top-left-radius: 80px;
-  border: 1px solid rgb(255, 217, 0);
 }
 
 .lg-text-4 {
