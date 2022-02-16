@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Welcome to Microverse
+> Portfolio: Setup and mobile version skeleton
 
 ## Built With
 
