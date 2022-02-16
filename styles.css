@@ -1,9 +1,130 @@
-body {
-  background-color: grey;
-  color: black;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.radius {
-  border-bottom-left-radius: 50%;
-  background-color: red;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-color-1 {
+  background-color: white;
+  border-bottom-left-radius: 80px;
+}
+
+/* navigator */
+.toolbar {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 12px;
+  height: 66px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  height: 44px;
+  color: #6070ff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.normal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+#icon-menu {
+  padding: 2px;
+}
+
+.menu-line {
+  width: 26px;
+  height: 4px;
+  background-color: #6070ff;
+  margin: 3px 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 20px;
+}
+
+.headline-inside {
+  color: #172b4d;
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 48px;
+  margin-bottom: 10px;
+  letter-spacing: 0.37px;
+}
+
+.headline-inside2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #344563;
+  margin: 10px 0;
+}
+
+.headline-inside3 {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 10px 0;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 200px;
+  height: 40px;
+}
+
+.bg-image-1 {
+  position: absolute;
+  background-image: url("./assets/header-shapes\ mobile.svg");
+  width: 500px;
+  height: 680px;
+  background-repeat: no-repeat;
+  background-position: 0 20px;
 }
