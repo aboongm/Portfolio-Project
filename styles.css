@@ -259,7 +259,7 @@ a {
 
 .btn:hover {
   background: #6070ff;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
 }
 
@@ -338,7 +338,6 @@ hr {
   font-size: 40px;
   font-weight: bolder;
   line-height: 48px;
-  margin-bottom: 8px;
   letter-spacing: 0.37px;
   margin: 110px 20px 20px 20px;
   text-align: center;
