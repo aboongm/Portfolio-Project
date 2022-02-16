@@ -97,14 +97,14 @@ a {
   letter-spacing: 0.37px;
 }
 
-.primary-text-2 {
+.sm-text-1 {
   font-size: 18px;
   font-weight: 500;
   color: #344563;
   margin: 10px 0;
 }
 
-.primary-text-3 {
+.lg-text-3 {
   font-size: 22px;
   font-weight: 500;
   line-height: 24px;
@@ -147,7 +147,7 @@ a {
 }
 
 .bg-img-container {
-  padding: 20px 20px;
+  padding: 20px 20px 0 20px;
   background-color: #fff;
   border-radius: 8px;
 }
@@ -160,7 +160,7 @@ a {
 }
 
 .block {
-  border: 1px solid red;
+  margin: 0 20px 20px 20px;
 }
 
 .client-info {
@@ -171,7 +171,7 @@ a {
 }
 
 .text-group {
-  border: 1px solid black;
+  display: block;
 }
 
 .lg-text-2 {
@@ -184,8 +184,55 @@ a {
 }
 
 .client {
-  border: 1px solid blue;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #344563;
+}
+
+.role,
+.year-label {
+  font-size: 14px;
+  color: #7a869a;
+}
+
+.sm-text-4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #344563;
+  margin: 10px 0;
 }
 
 .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 14px 0 20px 0;
+}
+
+.tags li {
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.btn {
+  padding: 12px;
+  width: 124px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: #fff;
 }
