@@ -257,6 +257,16 @@ a {
   background-color: #fff;
 }
 
+.btn:hover {
+  background: #6070ff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
+
+.btn:active {
+  background: #2230d2;
+}
+
 /* about */
 .about {
   background-color: white;
@@ -400,12 +410,15 @@ textarea:hover::placeholder {
 
 .btn-1 {
   padding: 12px;
-  border: 1px solid #6070ff;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
-  color: #396df2;
   background-color: #fff;
   margin: 0 0 20px 0;
+}
+
+.btn-1:disabled {
+  border: 1px solid #c1c7d0;
+  color: #5e6c84;
 }
