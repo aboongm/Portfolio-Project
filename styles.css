@@ -281,6 +281,19 @@ a {
   padding: 100px 20px 20px 20px;
 }
 
+.text-width {
+  width: 40px;
+}
+
+.social-media-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0;
+  width: 200px;
+  height: 40px;
+}
+
 .skill-list {
   padding: 20px 20px;
 }
