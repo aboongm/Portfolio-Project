@@ -261,6 +261,7 @@ a {
 .about {
   background-color: white;
   border-top-right-radius: 80px;
+  padding-bottom: 80px;
 }
 
 .top {
@@ -303,6 +304,12 @@ a {
 
 .frameworks {
   padding: 10px 10px;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background: #dfe1e6;
 }
 
 .skills {
