@@ -159,6 +159,27 @@ a {
   background-repeat: no-repeat;
 }
 
+.snapshot-portfolio-2 {
+  background-image: url("./assets/portfolio/multi-post-stories.svg");
+  width: 295px;
+  height: 220px;
+  background-repeat: no-repeat;
+}
+
+.snapshot-portfolio-3 {
+  background-image: url("./assets/portfolio/tonic-2.svg");
+  width: 295px;
+  height: 220px;
+  background-repeat: no-repeat;
+}
+
+.snapshot-portfolio-4 {
+  background-image: url("./assets/portfolio/multi-post-stories-2.svg");
+  width: 295px;
+  height: 220px;
+  background-repeat: no-repeat;
+}
+
 .block {
   margin: 0 20px 20px 20px;
 }
