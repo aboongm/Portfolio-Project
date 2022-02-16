@@ -124,7 +124,7 @@ a {
 
 .bg-image-1 {
   position: absolute;
-  background-image: url("./assets/header-shapes\ mobile.svg");
+  background-image: url("./assets/header-shapes-mobile.svg");
   width: 500px;
   height: 680px;
   background-repeat: no-repeat;
@@ -217,7 +217,7 @@ a {
   color: #7a869a;
 }
 
-.sm-text-4 {
+.sm-text-2 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -314,4 +314,98 @@ hr {
 
 .skills {
   padding: 10px 10px;
+}
+
+/* contact me */
+.contact-me {
+  background: #6070ff;
+  border-top-left-radius: 80px;
+  border: 1px solid rgb(255, 217, 0);
+}
+
+.lg-text-4 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: 48px;
+  margin-bottom: 8px;
+  letter-spacing: 0.37px;
+  margin: 110px 20px 20px 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  align-items: self-start;
+  justify-content: right;
+}
+
+.bg-image-2 {
+  position: absolute;
+  background-image: url("./assets/contact_form_shapes-mobile.svg");
+  width: 265px;
+  height: 709.17px;
+  background-repeat: no-repeat;
+  background-position: 43px 20px;
+}
+
+.sm-text-3 {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: #ebebff;
+  margin: 0 20px 20px 20px;
+}
+
+/* form */
+.form {
+  margin: 20px;
+}
+
+.form-text {
+  font-size: 28px;
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+}
+
+input[type="text"],
+[type="email"] {
+  width: 100%;
+  padding: 16px 14px;
+  margin: 0 0 10px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 170px;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 2px;
+  background-color: #fbf8f7;
+  margin: 0 0 10px 0;
+}
+
+textarea:hover::placeholder {
+  background: #d1cbc9;
+}
+
+.btn-1 {
+  padding: 12px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: #fff;
+  margin: 0 0 20px 0;
 }
