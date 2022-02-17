@@ -29,7 +29,6 @@ a {
 }
 
 .container {
-  max-width: 412px;
   margin: 0 auto;
   background-color: #e5e5e5;
   display: flex;
@@ -80,7 +79,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 50% 20px;
+  padding: 120px 20px;
 }
 
 /* headline */
@@ -127,10 +126,9 @@ a {
 /* For width larger than 414px: */
 .bg-image-1 {
   background-image: url("./assets/header-shapes-mobile.svg");
-  background-position: 0 -50px;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 100vh;
 }
 
 /* works */
@@ -319,6 +317,7 @@ hr {
 .contact-me {
   background: #6070ff;
   border-top-left-radius: 80px;
+  padding-bottom: 20px;
 }
 
 .contact-container {
@@ -346,15 +345,14 @@ hr {
   background-position: 80px 5px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 100vh;
 }
 
 .sm-text-3 {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: #ebebff;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 40px 20px;
 }
 
 /* form */
