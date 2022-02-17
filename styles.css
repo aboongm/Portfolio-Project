@@ -13,6 +13,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.5;
   font-size: 0.875rem;
+  min-height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 ul {
@@ -26,7 +29,7 @@ a {
 }
 
 .container {
-  width: 375px;
+  max-width: 414px;
   margin: 0 auto;
   background-color: #e5e5e5;
   display: flex;
@@ -39,7 +42,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 12px;
+  padding: 5% 12%;
   height: 66px;
 }
 
@@ -58,8 +61,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
   padding: 2px;
   border-radius: 2px;
 }
@@ -79,7 +80,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 100px 20px;
+  padding: 50% 20px;
 }
 
 /* headline */
@@ -90,11 +91,12 @@ a {
 
 .lg-text-1 {
   color: #172b4d;
-  font-size: 48px;
+  font-size: 46px;
   font-weight: bolder;
   line-height: 48px;
   margin-bottom: 10px;
   letter-spacing: 0.37px;
+  width: 300px;
 }
 
 .sm-text-1 {
@@ -122,13 +124,13 @@ a {
   height: 40px;
 }
 
+/* For width larger than 414px: */
 .bg-image-1 {
-  position: absolute;
   background-image: url("./assets/header-shapes-mobile.svg");
-  width: 500px;
-  height: 680px;
+  background-position: 0 -50px;
   background-repeat: no-repeat;
-  background-position: 0 20px;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
 /* works */
@@ -136,13 +138,12 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 120px;
-  padding: 100px 20px;
+  padding: 30% 20px;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   background-color: #fff;
   border-radius: 16px;
 }
@@ -155,30 +156,34 @@ a {
 
 .snapshot-portfolio-1 {
   background-image: url("./assets/portfolio/tonic.svg");
-  width: 295px;
-  height: 220px;
+  background-size: cover, contain;
+  background-position: top;
   background-repeat: no-repeat;
+  height: 30vh;
 }
 
 .snapshot-portfolio-2 {
   background-image: url("./assets/portfolio/multi-post-stories.svg");
-  width: 295px;
-  height: 220px;
+  background-size: cover, contain;
+  background-position: top;
   background-repeat: no-repeat;
+  height: 30vh;
 }
 
 .snapshot-portfolio-3 {
   background-image: url("./assets/portfolio/tonic-2.svg");
-  width: 295px;
-  height: 220px;
+  background-size: cover, contain;
+  background-position: top;
   background-repeat: no-repeat;
+  height: 30vh;
 }
 
 .snapshot-portfolio-4 {
   background-image: url("./assets/portfolio/multi-post-stories-2.svg");
-  width: 295px;
-  height: 220px;
+  background-size: cover, contain;
+  background-position: top;
   background-repeat: no-repeat;
+  height: 30vh;
 }
 
 .block {
@@ -345,13 +350,17 @@ hr {
   border-top-left-radius: 80px;
 }
 
+.contact-container {
+  margin: 20px;
+}
+
 .lg-text-4 {
   color: #fff;
   font-size: 40px;
   font-weight: bolder;
   line-height: 48px;
   letter-spacing: 0.37px;
-  margin: 110px 20px 20px 20px;
+  margin: 100px 20px 0 20px;
   text-align: center;
 }
 
@@ -362,17 +371,16 @@ hr {
 }
 
 .bg-image-2 {
-  position: absolute;
   background-image: url("./assets/contact_form_shapes-mobile.svg");
-  width: 265px;
-  height: 709.17px;
+  background-position: 80px 5px;
   background-repeat: no-repeat;
-  background-position: 43px 20px;
+  background-size: 100% 100%;
+  height: 100vh;
 }
 
 .sm-text-3 {
   font-weight: 300;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   color: #ebebff;
   margin: 0 20px 20px 20px;
