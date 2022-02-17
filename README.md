@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Welcome to Microverse
+> Portfolio: Setup and mobile version skeleton
 
 ## Built With
 
@@ -20,9 +20,11 @@ Run the following commands on the terminal your local machine:
 
 ## Authors
 
-👤 **Author1**
+👤 **Ranjit Luwang**
 
 - GitHub: [@aboongm](https://github.com/aboongm)
+- Twitter: [@John_luang1](https://twitter.com/John_luang1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mayengbam-ranjit-luwang-31962418/)
 
 ## Show your support
 
