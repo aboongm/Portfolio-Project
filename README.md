@@ -11,9 +11,9 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple steps.
 
-Run the following commands on the terminal your local machine:
+Run the following commands on the terminal of your local machine:
 
 - git clone https://github.com/aboongm/Portfolio-setup-and-mobile-version-skeleton.git
 - cd Portfolio-setup-and-mobile-version-skeleton

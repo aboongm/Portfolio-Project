@@ -406,7 +406,7 @@ textarea:hover::placeholder {
   margin: 0 0 20px 0;
 }
 
-.btn-1:disabled {
+/* .btn-1:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
-}
+} */
