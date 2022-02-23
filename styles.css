@@ -325,8 +325,12 @@ hr {
   padding-bottom: 20px;
 }
 
+.bg-color-1 {
+  background-color: #fff;
+}
+
 .contact-container {
-  height: 100px;
+  padding: 100px 0 0 0;
 }
 
 .lg-text-4 {
@@ -462,7 +466,7 @@ textarea:hover::placeholder {
     max-width: 800px;
     padding: 0 20px;
   }
-
+  /* 
   .card-img-left,
   .card-img-right {
     display: flex;
@@ -477,5 +481,58 @@ textarea:hover::placeholder {
   .card-img-right ul {
     margin: 20px;
     order: 1;
+  } */
+
+  /* about */
+  .about {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+
+  .div-container {
+    margin: 0 auto;
+    padding: 120px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  .language-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 20px 10px;
+  }
+
+  .language-list li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px 30px 20px 5px;
+    flex-direction: column;
+  }
+
+  .text-width {
+    width: 40px;
+  }
+
+  .bg-image-2 {
+    background-image: url("./assets/desktop/contact-form-background-shapes.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid transparent;
+  }
+
+  .contact-container {
+    border: 1px solid red;
+    width: 800px;
+    margin: 0 auto;
+    padding: 120px 160px 0 160px;
   }
 }
