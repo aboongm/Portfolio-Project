@@ -138,7 +138,7 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-row-gap: 120px;
-  padding: 30% 20px;
+  padding: 120px 20px;
 }
 
 .card-img-left,
@@ -158,6 +158,10 @@ a {
 .card-img-right img {
   width: 100%;
   height: 100%;
+}
+
+.img-1-2 {
+  display: none;
 }
 
 .block {
@@ -420,10 +424,6 @@ textarea:hover::placeholder {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    background-color: rgb(181, 233, 61);
-  }
-
   #icon-menu {
     display: none;
   }
@@ -466,22 +466,35 @@ textarea:hover::placeholder {
     max-width: 800px;
     padding: 0 20px;
   }
-  /* 
+
+  /* works */
+  .works {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 120px;
+    padding: 120px;
+  }
+
   .card-img-left,
   .card-img-right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #fff;
     border-radius: 16px;
-    border: 1px solid red;
   }
 
   .card-img-right ul {
     margin: 20px;
     order: 1;
-  } */
+  }
+
+  .img-1-1 {
+    display: none;
+  }
+
+  .img-1-2 {
+    display: block;
+  }
 
   /* about */
   .about {
@@ -530,7 +543,6 @@ textarea:hover::placeholder {
   }
 
   .contact-container {
-    border: 1px solid red;
     width: 800px;
     margin: 0 auto;
     padding: 120px 160px 0 160px;
