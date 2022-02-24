@@ -18,7 +18,7 @@ Run the following commands on the terminal of your local machine:
 - git clone https://github.com/aboongm/Portfolio-setup-and-mobile-version-skeleton.git
 - cd Portfolio-setup-and-mobile-version-skeleton
 
-## Authors
+## Author
 
 👤 **Ranjit Luwang**
 
