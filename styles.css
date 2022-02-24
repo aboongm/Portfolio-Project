@@ -492,6 +492,10 @@ textarea:hover::placeholder {
     width: 360px;
   }
 
+  .sm-text-1:hover {
+    transform: translate(10px);
+  }
+
   .social-media {
     display: flex;
     align-items: center;
@@ -529,6 +533,10 @@ textarea:hover::placeholder {
 
   .img-1-2 {
     display: block;
+  }
+
+  .img-1-2:hover {
+    transform: scale(1.1);
   }
 
   .block-2 {
