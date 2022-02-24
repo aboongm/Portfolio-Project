@@ -422,7 +422,25 @@ textarea:hover::placeholder {
   font-size: 17px;
   letter-spacing: 0.03em;
   background-color: #fff;
+  color: #6070ff;
   margin: 0 0 20px 0;
+}
+
+.btn-1:hover {
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(226, 228, 241, 0.938);
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-1:active {
+  background: rgba(255, 255, 255, 0.849);
+  font-weight: 600;
+  color: #333;
+}
+
+.btn-1:focus {
+  color: #6070ff;
 }
 
 @media screen and (min-width: 1024px) {
