@@ -526,12 +526,22 @@ textarea:hover::placeholder {
     order: 1;
   }
 
+  .card-img-left ul,
+  .card-img-right ul {
+    margin: 20px;
+    display: flex;
+  }
+
   .img-1-1 {
     display: none;
   }
 
   .img-1-2 {
     display: block;
+  }
+
+  .img-1-2:hover {
+    transform: scale(1.1);
   }
 
   .block-2 {
