@@ -451,13 +451,16 @@ textarea:hover::placeholder {
   .placeholder h3 {
     animation: logo 1s linear;
   }
+
   @keyframes logo {
     from {
       transform: rotate(0deg);
     }
+
     50% {
       transform: rotate(180deg);
     }
+
     to {
       transform: rotate(360deg);
     }
