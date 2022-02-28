@@ -454,14 +454,18 @@ textarea:hover::placeholder {
 
   @keyframes logo {
     from {
+      color: crimson;
       transform: rotate(0deg);
     }
 
     50% {
+      color: rgba(204, 106, 126, 0.493);
+      font-size: 300%;
       transform: rotate(180deg);
     }
 
     to {
+      color: #7f8cff;
       transform: rotate(360deg);
     }
   }
