@@ -2,12 +2,16 @@
 
 # Project Name
 
-> Portfolio: Setup and mobile version skeleton
+> Portfolio
 
 ## Built With
 
 - HTML/CSS
 - Linters - Stylelint, hint and lighthouse
+
+## Live Demo
+
+[Live Demo Link](https://aboongm.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 ## Getting Started
 

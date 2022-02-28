@@ -454,35 +454,50 @@ textarea:hover::placeholder {
 
   @keyframes logo {
     from {
+      color: crimson;
       transform: rotate(0deg);
     }
 
     50% {
+      color: rgba(204, 106, 126, 0.493);
+      font-size: 300%;
       transform: rotate(180deg);
     }
 
     to {
+      color: #7f8cff;
       transform: rotate(360deg);
     }
   }
 
   .slidein {
-    animation: slide 2s ease;
+    animation: slide 2s;
+    animation-timing-function: ease;
+    color: #7f8cff;
   }
 
   @keyframes slide {
-    from {
+    0% {
+      color: crimson;
       margin-left: 100%;
       width: 300%;
     }
 
-    75% {
+    50% {
+      color: rgba(204, 106, 126, 0.493);
       font-size: 300%;
       margin-left: 25%;
       width: 150%;
     }
 
-    to {
+    98% {
+      color: #7f8cff;
+      margin-left: 0%;
+      width: 102%;
+    }
+
+    100% {
+      color: #7f8cff;
       margin-left: 0%;
       width: 100%;
     }
