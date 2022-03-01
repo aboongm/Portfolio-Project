@@ -55,7 +55,7 @@ a {
   font-size: 18px;
 }
 
-.placeholder a {
+.placeholder h3 {
   color: #6070ff;
   font-size: 1.5rem;
 }
@@ -452,7 +452,7 @@ textarea:hover::placeholder {
     display: none;
   }
 
-  .placeholder a {
+  .placeholder h3 {
     animation: logo 2s linear;
   }
 
