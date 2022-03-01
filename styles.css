@@ -25,7 +25,6 @@ ul {
 a {
   text-decoration: none;
   font-size: 1rem;
-  color: #fff;
 }
 
 .container {
@@ -54,6 +53,11 @@ a {
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
+}
+
+.placeholder div {
+  color: #6070ff;
+  font-size: 1.5rem;
 }
 
 .normal-button {
@@ -114,7 +118,7 @@ a {
   font-weight: 500;
   line-height: 24px;
   margin: 10px 0;
-  color: #7f8cff;
+  color: #3a4bea;
   text-transform: uppercase;
 }
 
@@ -176,6 +180,11 @@ a {
   gap: 8px;
 }
 
+.client-info img {
+  width: 8px;
+  height: 8px;
+}
+
 .text-group {
   display: block;
 }
@@ -198,7 +207,7 @@ a {
 .role,
 .year-label {
   font-size: 14px;
-  color: #7a869a;
+  color: #505764;
 }
 
 .sm-text-2 {
@@ -222,7 +231,7 @@ a {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #3a4bea;
 }
 
 .actions {
@@ -233,12 +242,12 @@ a {
 
 .btn {
   padding: 12px;
-  border: 1px solid #6070ff;
+  border: 1px solid #3a4bea;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
-  color: #396df2;
+  color: #3a4bea;
   background-color: #fff;
 }
 
@@ -448,12 +457,12 @@ textarea:hover::placeholder {
     display: none;
   }
 
-  .placeholder h3 {
+  .placeholder div {
     animation: logo 2s linear;
   }
 
   @keyframes logo {
-    from {
+    0% {
       color: crimson;
       transform: rotate(0deg);
     }
@@ -464,7 +473,7 @@ textarea:hover::placeholder {
       transform: rotate(180deg);
     }
 
-    to {
+    100% {
       color: #7f8cff;
       transform: rotate(360deg);
     }
@@ -473,7 +482,7 @@ textarea:hover::placeholder {
   .slidein {
     animation: slide 2s;
     animation-timing-function: ease;
-    color: #7f8cff;
+    color: #3a4bea;
   }
 
   @keyframes slide {
@@ -491,13 +500,13 @@ textarea:hover::placeholder {
     }
 
     98% {
-      color: #7f8cff;
+      color: #3a4bea;
       margin-left: 0%;
       width: 102%;
     }
 
     100% {
-      color: #7f8cff;
+      color: #3a4bea;
       margin-left: 0%;
       width: 100%;
     }
@@ -513,6 +522,12 @@ textarea:hover::placeholder {
     margin-left: 30px;
     font-size: 16px;
     font-weight: 500;
+    color: #344563;
+  }
+
+  .normal-button a {
+    font-size: 1.2rem;
+    color: #344563;
   }
 
   .bg-image-1 {
