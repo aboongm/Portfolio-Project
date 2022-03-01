@@ -118,7 +118,7 @@ a {
   font-weight: 500;
   line-height: 24px;
   margin: 10px 0;
-  color: #7f8cff;
+  color: #3a4bea;
   text-transform: uppercase;
 }
 
@@ -482,7 +482,7 @@ textarea:hover::placeholder {
   .slidein {
     animation: slide 2s;
     animation-timing-function: ease;
-    color: #7f8cff;
+    color: #3a4bea;
   }
 
   @keyframes slide {
@@ -500,13 +500,13 @@ textarea:hover::placeholder {
     }
 
     98% {
-      color: #7f8cff;
+      color: #3a4bea;
       margin-left: 0%;
       width: 102%;
     }
 
     100% {
-      color: #7f8cff;
+      color: #3a4bea;
       margin-left: 0%;
       width: 100%;
     }
@@ -522,6 +522,12 @@ textarea:hover::placeholder {
     margin-left: 30px;
     font-size: 16px;
     font-weight: 500;
+    color: #344563;
+  }
+
+  .normal-button a {
+    font-size: 1.2rem;
+    color: #344563;
   }
 
   .bg-image-1 {
