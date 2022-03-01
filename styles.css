@@ -180,6 +180,11 @@ a {
   gap: 8px;
 }
 
+.client-info img {
+  width: 8px;
+  height: 8px;
+}
+
 .text-group {
   display: block;
 }
