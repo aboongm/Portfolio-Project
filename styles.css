@@ -25,7 +25,6 @@ ul {
 a {
   text-decoration: none;
   font-size: 1rem;
-  color: #fff;
 }
 
 .container {
@@ -54,6 +53,11 @@ a {
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
+}
+
+.placeholder a {
+  color: #6070ff;
+  font-size: 1.5rem;
 }
 
 .normal-button {
@@ -448,12 +452,12 @@ textarea:hover::placeholder {
     display: none;
   }
 
-  .placeholder h3 {
+  .placeholder a {
     animation: logo 2s linear;
   }
 
   @keyframes logo {
-    from {
+    0% {
       color: crimson;
       transform: rotate(0deg);
     }
@@ -464,7 +468,7 @@ textarea:hover::placeholder {
       transform: rotate(180deg);
     }
 
-    to {
+    100% {
       color: #7f8cff;
       transform: rotate(360deg);
     }
