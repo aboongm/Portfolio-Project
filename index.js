@@ -153,7 +153,7 @@ contact.addEventListener('click', (e) => {
 // popup
 // dynamic html code from javascript
 const portfolio = document.querySelector('#portfolio');
-const popupClose = document.querySelector('#popup-close');
+const modal = document.querySelector('#myModal');
 
 portfolio.classList.add('works');
 
@@ -187,4 +187,30 @@ Array.from(portfolio.children).forEach((child, index) => {
       </div>
     </div>
   </section>`;
+});
+
+// modals
+Array.from(portfolio.children).forEach((item) => {
+  item.addEventListener('click', (e) => {
+    console.log(item);
+    let btn = document.getElementById('btn');
+    console.log(btn);
+    modal.innerHTML = `
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Some text in the Modal..</p>
+    </div>
+    `;
+    modal.style.display = 'block';
+    let span = document.getElementsByClassName('close')[0];
+    span.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+    window.addEventListener('click', (e) => {
+      if (e.target == modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
 });
