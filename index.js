@@ -115,6 +115,7 @@ const textPortfolio = document.querySelector('.nav-text-1');
 const about = document.querySelector('.nav-text-2');
 const contact = document.querySelector('.nav-text-3');
 
+// hamburger menu
 hamburger.addEventListener('click', (e) => {
   e.preventDefault();
 
@@ -148,3 +149,5 @@ contact.addEventListener('click', (e) => {
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
 });
+
+// popup modal
