@@ -11,3 +11,8 @@ hamburger.addEventListener('click', (e) => {
   navigation.classList.toggle('show');
   hamburger.classList.add('display');
 });
+
+close.addEventListener('click', (e) => {
+  hamburger.classList.remove('display');
+  navigation.classList.remove('show');
+});
