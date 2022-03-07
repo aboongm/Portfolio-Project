@@ -2,10 +2,6 @@
   .hamburger {
     display: none;
   }
-
-  .close {
-    display: none;
-  }
 }
 
 .hamburger {
@@ -32,4 +28,22 @@
 
 .display {
   display: none;
+}
+
+.nav-ul.show {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 50px 20px;
+  border: 1px solid red;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(15px);
+  opacity: 0.97;
 }
