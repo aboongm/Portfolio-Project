@@ -9,10 +9,10 @@ hamburger.addEventListener('click', (e) => {
   e.preventDefault();
 
   navigation.classList.toggle('show');
-  hamburger.classList.add('display');
+  hamburger.classList.add('hide');
 });
 
 close.addEventListener('click', (e) => {
-  hamburger.classList.remove('display');
+  hamburger.classList.remove('hide');
   navigation.classList.remove('show');
 });
