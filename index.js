@@ -150,4 +150,41 @@ contact.addEventListener('click', (e) => {
   hamburger.classList.remove('hide');
 });
 
-// popup modal
+// popup
+// dynamic html code from javascript
+const portfolio = document.querySelector('#portfolio');
+const popupClose = document.querySelector('#popup-close');
+
+portfolio.classList.add('works');
+
+Array.from(portfolio.children).forEach((child, index) => {
+  child.innerHTML = `
+  <section class="${data[index].card}">
+    <ul>
+      <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1" /></li>
+      <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2" /></li>
+    </ul>
+    <div class="block-1">
+      <div class="text-group">
+        <h2 class="lg-text-2">${data[index].name}</h2>
+        <div class="client-info">
+          <h3 class="client">${data[index].job.client}</h3>
+          <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
+          <h3 class="role">${data[index].job.role}</h3>
+          <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
+          <h3 class="year-label">${data[index].job.year}</h3>
+        </div>
+      </div>
+      <h3 class="sm-text-2">${data[index].description.summary}</h3>
+      <ul class="tags">
+        <li>${data[index].technologies.html}</li>
+        <li>${data[index].technologies.css}</li>
+        <li>${data[index].technologies.javascript}</li>
+      </ul>
+      
+      <div class="actions" id="${data[index].id}">
+        <button class="btn" id="btn" type="button">See Project</button>
+      </div>
+    </div>
+  </section>`;
+});
