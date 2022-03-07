@@ -16,7 +16,7 @@
   </head>
   <body>
     <section class="container">
-      <header class="toolbar">
+      <nav class="normal-button">
         <div class="logo">
           <div class="placeholder">
             <div><a href="/"></a></div>
@@ -24,19 +24,18 @@
           </div>
         </div>
 
-        <nav class="normal-button">
-          <ul>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-          <div id="icon-menu">
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-            <div class="menu-line"></div>
-          </div>
-        </nav>
-      </header>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button id="close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="nav-ul">
+          <li><a href="#portfolio" class="nav-text-1">Portfolio</a></li>
+          <li><a href="#about" class="nav-text-2">About</a></li>
+          <li><a href="#contact" class="nav-text-3">Contact</a></li>
+        </ul>
+      </nav>
 
       <section class="headline">
         <div class="bg-image-1">
