@@ -1,0 +1,35 @@
+@media screen and (min-width: 1024px) {
+  .hamburger {
+    display: none;
+  }
+
+  .close {
+    display: none;
+  }
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #6070ff;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 40px;
+  z-index: 10;
+}
+
+#close {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 40px;
+  z-index: 9;
+}
+
+.display {
+  display: none;
+}
