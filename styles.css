@@ -67,8 +67,9 @@ a {
   justify-content: space-between;
   border-radius: 2px;
   background-color: #fff;
-  padding: 5px 60px;
-  height: 66px;
+  padding: 0 60px;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-ul {
@@ -97,6 +98,7 @@ a {
 .headline {
   background-color: white;
   border-bottom-left-radius: 80px;
+  margin: 44px 0 0 0;
 }
 
 .lg-text-1 {
