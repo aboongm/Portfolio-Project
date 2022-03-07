@@ -191,8 +191,7 @@ Array.from(portfolio.children).forEach((child, index) => {
 
 // modals
 Array.from(portfolio.children).forEach((item) => {
-  item.addEventListener('click', (e) => {
-    console.log(item);
+  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', (e) => {
     let btn = document.getElementById('btn');
     console.log(btn);
     modal.innerHTML = `
