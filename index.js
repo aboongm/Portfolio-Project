@@ -13,12 +13,26 @@ hamburger.addEventListener('click', (e) => {
   close.classList.remove('hide');
 });
 
-close.addEventListener('click', (e) => {
+close.addEventListener('click', () => {
   hamburger.classList.remove('hide');
   navigation.classList.remove('show');
 });
 
 textPortfolio.addEventListener('click', (e) => {
+  e.stopPropagation();
+
+  navigation.classList.remove('show');
+  hamburger.classList.remove('hide');
+});
+
+about.addEventListener('click', (e) => {
+  e.stopPropagation();
+
+  navigation.classList.remove('show');
+  hamburger.classList.remove('hide');
+});
+
+contact.addEventListener('click', (e) => {
   e.stopPropagation();
 
   navigation.classList.remove('show');
