@@ -10,6 +10,7 @@ hamburger.addEventListener('click', (e) => {
 
   navigation.classList.toggle('show');
   hamburger.classList.add('hide');
+  close.classList.remove('hide');
 });
 
 close.addEventListener('click', (e) => {
