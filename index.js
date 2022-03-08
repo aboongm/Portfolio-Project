@@ -212,22 +212,24 @@ Array.from(portfolio.children).forEach((item, index) => {
       </div>
       <ul>
         <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1" /></li>
-        <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2" /></li>
+        <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2 popup-img" /></li>
       </ul>
-      <h3 class="popup-text-sm">${data[index].description.mobile}</h3>
-      <div class="popup-block">
-        <ul class="tags">
-          <li>${data[index].technologies.html}</li>
-          <li>${data[index].technologies.css}</li>
-          <li>${data[index].technologies.javascript}</li>
-        </ul>
-        <div class="popup-actions">
-          <button class="btn btnImage" id="btn" type="button">See Live
-            <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
-          </button>
-          <button class="btn btnImage" id="btn" type="button">See Source
-            <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
-          </button>
+      <div class="popup-bottom">
+        <h3 class="popup-text-sm">${data[index].description.mobile}</h3>
+        <div class="popup-block">
+          <ul class="tags">
+            <li>${data[index].technologies.html}</li>
+            <li>${data[index].technologies.css}</li>
+            <li>${data[index].technologies.javascript}</li>
+          </ul>
+          <div class="popup-actions">
+            <button class="btn btnImage" id="btn" type="button">See Live
+              <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
+            </button>
+            <button class="btn btnImage" id="btn" type="button">See Source
+              <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
+            </button>
+          </div>
         </div>
       </div>
     </section>
