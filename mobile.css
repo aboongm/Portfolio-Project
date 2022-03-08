@@ -48,7 +48,7 @@
 }
 
 .menu-text {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -96,7 +96,7 @@
 
 .popup-text-sm {
   margin: 1rem 0 2rem 0;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -149,7 +149,7 @@
   .nav-text-1,
   .nav-text-2,
   .nav-text-3 {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -179,6 +179,6 @@
 
   .popup-actions {
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
   }
 }
