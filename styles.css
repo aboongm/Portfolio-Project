@@ -56,8 +56,12 @@ a {
 }
 
 .placeholder div {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
   color: #6070ff;
-  font-size: 1.5rem;
 }
 
 .normal-button {
@@ -526,11 +530,6 @@ textarea:hover::placeholder {
     margin-left: 30px;
     font-size: 16px;
     font-weight: 500;
-    color: #344563;
-  }
-
-  .normal-button a {
-    font-size: 1.2rem;
     color: #344563;
   }
 

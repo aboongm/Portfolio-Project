@@ -43,12 +43,21 @@
   opacity: 0.92;
 }
 
-.nav-text-1,
+/* .nav-text-1,
 .nav-text-2,
 .nav-text-3 {
   font-size: 3rem;
   font-weight: 600;
   color: white;
+} */
+
+.menu-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
 }
 
 /* Modal  */
@@ -143,6 +152,17 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .nav-text-1,
+  .nav-text-2,
+  .nav-text-3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   .hamburger {
     display: none;
   }
