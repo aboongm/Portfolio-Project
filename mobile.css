@@ -68,6 +68,7 @@
   overflow: auto;
   backdrop-filter: blur(5px);
   padding: 20px;
+  background-color: rgba(0, 20, 50, 0.3);
 }
 
 /* Modal Content */
