@@ -83,6 +83,12 @@
   margin-bottom: 1rem;
 }
 
+.popup-text-sm {
+  font-size: 1rem;
+  font-weight: light !important;
+  margin: 1rem 0 2rem 0;
+}
+
 .sm-text-2 {
   font-size: 1rem;
 }
@@ -100,6 +106,21 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.popup-block .tags {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 14px 0 20px 0;
+}
+
+.popup-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 1024px) {

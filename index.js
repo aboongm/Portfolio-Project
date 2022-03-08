@@ -215,7 +215,7 @@ Array.from(portfolio.children).forEach((item, index) => {
         <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2" /></li>
       </ul>
       <h3 class="popup-text-sm">${data[index].description.mobile}</h3>
-      <div>
+      <div class="popup-block">
         <ul class="tags">
           <li>${data[index].technologies.html}</li>
           <li>${data[index].technologies.css}</li>
