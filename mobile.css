@@ -74,7 +74,17 @@
   border-radius: 12px;
   padding: 20px 20px;
   width: 100%;
-  height: 100%;
+}
+
+.popup-text-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.sm-text-2 {
+  font-size: 1rem;
 }
 
 /* The Close Button */

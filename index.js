@@ -190,16 +190,47 @@ Array.from(portfolio.children).forEach((child, index) => {
 });
 
 // modals
-Array.from(portfolio.children).forEach((item) => {
+Array.from(portfolio.children).forEach((item, index) => {
   item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
     const btn = document.getElementById('btn');
     console.log(btn);
     modal.innerHTML = `
     <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>Some text in the Modal..</p>
-    </div>
+    <section class="modal-content">
+      <div class="popup-text-group">
+        <div class="text-group">
+          <h2 class="lg-text-2">${data[index].name}</h2>
+          <div class="client-info">
+            <h3 class="client">${data[index].job.client}</h3>
+            <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
+            <h3 class="role">${data[index].job.role}</h3>
+            <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>
+            <h3 class="year-label">${data[index].job.year}</h3>
+          </div>
+        </div>
+        <span class="close">&times;</span>          
+      </div>
+      <ul>
+        <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1" /></li>
+        <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2" /></li>
+      </ul>
+      <h3 class="popup-text-sm">${data[index].description.mobile}</h3>
+      <div>
+        <ul class="tags">
+          <li>${data[index].technologies.html}</li>
+          <li>${data[index].technologies.css}</li>
+          <li>${data[index].technologies.javascript}</li>
+        </ul>
+        <div class="popup-actions">
+          <button class="btn btnImage" id="btn" type="button">See Live
+            <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
+          </button>
+          <button class="btn btnImage" id="btn" type="button">See Source
+            <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
+          </button>
+        </div>
+      </div>
+    </section>
     `;
     modal.style.display = 'block';
     const span = document.getElementsByClassName('close')[0];

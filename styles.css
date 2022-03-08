@@ -199,7 +199,6 @@ a {
   font-size: 34px;
   font-weight: bolder;
   line-height: 48px;
-  margin: 36px 0 20px 0;
   letter-spacing: 0.37px;
 }
 
@@ -550,6 +549,10 @@ textarea:hover::placeholder {
 
   .lg-text-1 {
     width: 360px;
+  }
+
+  .lg-text-2 {
+    margin: 36px 0 20px 0;
   }
 
   .sm-text-1:hover {
