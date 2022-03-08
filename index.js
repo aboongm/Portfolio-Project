@@ -211,10 +211,10 @@ Array.from(portfolio.children).forEach((item, index) => {
           <ul class="tags ${data[index].id}">
           </ul>
           <div class="popup-actions">
-            <button class="btn btnImage" id="btn" type="button">See Live
+            <button class="btn btnImg" id="btn" type="button">See Live
               <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
             </button>
-            <button class="btn btnImage" id="btn" type="button">See Source
+            <button class="btn btnImg" id="btn" type="button">See Source
               <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
             </button>
           </div>

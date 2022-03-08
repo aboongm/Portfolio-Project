@@ -132,6 +132,12 @@
   justify-content: space-around;
 }
 
+.btnImg {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
 @media screen and (min-width: 1024px) {
   .hamburger {
     display: none;
