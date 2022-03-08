@@ -199,7 +199,7 @@ Array.from(portfolio.children).forEach((item, index) => {
     <section class="modal-content">
       <div class="popup-text-group">
         <div class="text-group">
-          <h2 class="lg-text-2">${data[index].name}</h2>
+          <h2 class="popup-text-lg">${data[index].name}</h2>
           <div class="client-info">
             <h3 class="client">${data[index].job.client}</h3>
             <a href="#"><img src="./assets/Counter.svg" alt="counter" /></a>

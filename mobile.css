@@ -83,6 +83,14 @@
   margin-bottom: 1rem;
 }
 
+.popup-text-lg {
+  color: #172b4d;
+  font-size: 34px;
+  font-weight: bolder;
+  line-height: 48px;
+  letter-spacing: 0.37px;
+}
+
 .popup-text-sm {
   font-size: 1rem;
   font-weight: light !important;
