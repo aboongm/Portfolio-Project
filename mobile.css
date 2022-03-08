@@ -178,4 +178,9 @@
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
   }
+
+  .popup-actions {
+    justify-content: flex-start;
+    gap: 10px;
+  }
 }
