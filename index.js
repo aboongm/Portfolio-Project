@@ -228,10 +228,11 @@ Array.from(portfolio.children).forEach((item, index) => {
     const ulList = document.querySelector('.popup-block .tags');
     console.log(item);
     console.log(data[index].technologies);
-    for (let key in data[index].technologies) {
-      console.log(data[index].technologies[key]);
-      ulList.innerHTML += `<li>${data[index].technologies[key]}</li>`;
-    }
+
+    Object.keys(data[index].technologies).forEach((e) => {
+      console.log(`${e} : ${data[index].technologies[e]}`);
+      ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
+    });
 
     modal.style.display = 'block';
     const span = document.getElementsByClassName('close')[0];
