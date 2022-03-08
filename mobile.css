@@ -122,6 +122,8 @@
   flex-wrap: wrap;
   gap: 16px;
   margin: 14px 0 20px 0;
+  border-bottom: 1px solid lightgrey;
+  padding: 0 0 20px 0;
 }
 
 .popup-actions {
