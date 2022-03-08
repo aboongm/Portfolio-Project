@@ -174,7 +174,7 @@ Array.from(portfolio.children).forEach((child, index) => {
         <li>${data[index].technologies.css}</li>
         <li>${data[index].technologies.javascript}</li>
       </ul>
-      
+
       <div class="actions" id="${data[index].id}">
         <button class="btn" id="btn" type="button">See Project</button>
       </div>
@@ -185,8 +185,6 @@ Array.from(portfolio.children).forEach((child, index) => {
 // modals
 Array.from(portfolio.children).forEach((item, index) => {
   item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
-    const btn = document.getElementById('btn');
-    console.log(btn);
     modal.innerHTML = `
     <!-- Modal content -->
     <section class="modal-content">
@@ -201,7 +199,7 @@ Array.from(portfolio.children).forEach((item, index) => {
             <h3 class="year-label">${data[index].job.year}</h3>
           </div>
         </div>
-        <span class="close">&times;</span>          
+        <span class="close">&times;</span>
       </div>
       <ul>
         <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1" /></li>
@@ -226,11 +224,8 @@ Array.from(portfolio.children).forEach((item, index) => {
     `;
 
     const ulList = document.querySelector('.popup-block .tags');
-    console.log(item);
-    console.log(data[index].technologies);
 
     Object.keys(data[index].technologies).forEach((e) => {
-      console.log(`${e} : ${data[index].technologies[e]}`);
       ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
     });
 
