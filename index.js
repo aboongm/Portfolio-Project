@@ -115,6 +115,9 @@ hamburger.addEventListener('click', (e) => {
   navigation.classList.toggle('show');
   hamburger.classList.add('hide');
   close.classList.remove('hide');
+  textPortfolio.classList.add('menu-text');
+  about.classList.add('menu-text');
+  contact.classList.add('menu-text');
 });
 
 close.addEventListener('click', () => {

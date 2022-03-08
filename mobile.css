@@ -43,13 +43,9 @@
   opacity: 0.92;
 }
 
-/* .nav-text-1,
-.nav-text-2,
-.nav-text-3 {
-  font-size: 3rem;
-  font-weight: 600;
-  color: white;
-} */
+.nav-ul li {
+  margin: 14px 10px;
+}
 
 .menu-text {
   font-family: Poppins;
