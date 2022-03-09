@@ -253,6 +253,29 @@ const EMAIL_REQUIRED = 'Please enter your email';
 const EMAIL_INVALID = 'Please enter a correct email address format';
 const INPUT_LOWERCASE = 'Please enter a lowercase input';
 
+function showMessage(input, message, type) {
+  const msg = input.nextElementSibling;
+  console.log(msg);
+  msg.innerText = message;
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
+
+function hasValue(input, message) {
+  if (input.value.trim() === '') {
+    return showError(input, message);
+  }
+  return showSuccess(input);
+}
+
 function validateEmail(input, requiredMsg, invalidMsg, invalidLowercase) {
   // check if the value is not empty
   if (!hasValue(input, requiredMsg)) {
