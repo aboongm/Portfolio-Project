@@ -308,11 +308,11 @@ form.addEventListener('submit', function (event) {
   event.preventDefault();
 
   // validate the form
-  let nameValid = hasValue(form.elements['fullname'], NAME_REQUIRED);
+  // let nameValid = hasValue(form.elements['fullname'], NAME_REQUIRED);
   let emailValid = validateEmail(form.elements['email'], EMAIL_REQUIRED, EMAIL_INVALID, INPUT_LOWERCASE);
 
   // if valid, submit the form.
-  if (nameValid && emailValid) {
+  if (emailValid) {
     form.submit();
   }
 });
