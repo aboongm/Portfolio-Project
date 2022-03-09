@@ -252,3 +252,17 @@ const NAME_REQUIRED = 'Please enter your name';
 const EMAIL_REQUIRED = 'Please enter your email';
 const EMAIL_INVALID = 'Please enter a correct email address format';
 const INPUT_LOWERCASE = 'Please enter a lowercase input';
+
+form.addEventListener('submit', function (event) {
+  // stop form submission
+  event.preventDefault();
+
+  // validate the form
+  let nameValid = hasValue(form.elements['fullname'], NAME_REQUIRED);
+  let emailValid = validateEmail(form.elements['email'], EMAIL_REQUIRED, EMAIL_INVALID, INPUT_LOWERCASE);
+
+  // if valid, submit the form.
+  if (nameValid && emailValid) {
+    form.submit();
+  }
+});
