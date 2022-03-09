@@ -254,7 +254,7 @@ const EMAIL_INVALID = 'Please enter a correct email address format';
 const INPUT_LOWERCASE = 'Please enter a lowercase input';
 
 function showMessage(input, message, type) {
-  const msg = input.nextElementSibling;
+  const msg = document.querySelector('.error');
   console.log(msg);
   msg.innerText = message;
   input.className = type ? 'success' : 'error';
