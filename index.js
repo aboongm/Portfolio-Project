@@ -248,13 +248,13 @@ Array.from(portfolio.children).forEach((item, index) => {
 // form validation
 const form = document.querySelector('.form');
 
-const NAME_REQUIRED = 'Please enter your name';
-const EMAIL_REQUIRED = 'Please enter your email';
+// const NAME_REQUIRED = 'Please enter your name';
+const EMAIL_REQUIRED = 'Error : Please enter your email';
 const EMAIL_INVALID = 'Please enter a correct email address format';
-const INPUT_LOWERCASE = 'Please enter a lowercase input';
+const INPUT_LOWERCASE = 'Error : Please enter a lowercase input';
 
 function showMessage(input, message, type) {
-  const msg = document.querySelector('.error');
+  const msg = document.querySelector('.error-text');
   console.log(msg);
   msg.innerText = message;
   input.className = type ? 'success' : 'error';
@@ -279,7 +279,7 @@ function hasValue(input, message) {
 function validateEmail(input, requiredMsg, invalidMsg, invalidLowercase) {
   // check if the value is not empty
   if (!hasValue(input, requiredMsg)) {
-    return false;
+    return showError(input, requiredMsg);
   }
   // validate email format
   const emailRegex =
