@@ -274,6 +274,7 @@ form.addEventListener('submit', (e) => {
   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
   if (emailValid) {
     form.submit();
+    saveUserDetails();
   }
 });
 
@@ -296,3 +297,5 @@ function getUserDetails(localObj) {
   form.email.value = userDetails.email;
   form.feedback.value = userDetails.feedback;
 }
+
+getUserDetails(stored);
