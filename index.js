@@ -286,3 +286,5 @@ function saveUserDetails() {
   let myFormData = { name: fullname, email: email, feedback: feedback };
   localStorage.setItem('myFormData', JSON.stringify(myFormData));
 }
+
+const stored = localStorage.getItem('myFormData');
