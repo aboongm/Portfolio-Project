@@ -269,6 +269,16 @@ function validateEmail(input, invalidLowercase) {
   return showError(input, invalidLowercase);
 }
 
+// local storage
+function saveUserDetails() {
+  const formData = new FormData(form);
+  const fullname = formData.get('fullname');
+  const email = formData.get('email');
+  const feedback = formData.get('feedback');
+  const myFormData = { name: fullname, email, feedback };
+  localStorage.setItem('myFormData', JSON.stringify(myFormData));
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const emailValid = validateEmail(emailInput, INPUT_LOWERCASE);
@@ -277,16 +287,6 @@ form.addEventListener('submit', (e) => {
     saveUserDetails();
   }
 });
-
-// local storage
-function saveUserDetails() {
-  let formData = new FormData(form);
-  let fullname = formData.get('fullname');
-  let email = formData.get('email');
-  let feedback = formData.get('feedback');
-  let myFormData = { name: fullname, email: email, feedback: feedback };
-  localStorage.setItem('myFormData', JSON.stringify(myFormData));
-}
 
 const stored = localStorage.getItem('myFormData');
 
