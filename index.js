@@ -288,3 +288,11 @@ function saveUserDetails() {
 }
 
 const stored = localStorage.getItem('myFormData');
+
+function getUserDetails(localObj) {
+  const userDetails = JSON.parse(localObj);
+  console.log(userDetails);
+  form.fullname.value = userDetails.name;
+  form.email.value = userDetails.email;
+  form.feedback.value = userDetails.feedback;
+}
