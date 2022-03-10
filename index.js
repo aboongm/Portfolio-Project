@@ -276,3 +276,13 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// local storage
+function saveUserDetails() {
+  let formData = new FormData(form);
+  let fullname = formData.get('fullname');
+  let email = formData.get('email');
+  let feedback = formData.get('feedback');
+  let myFormData = { name: fullname, email: email, feedback: feedback };
+  localStorage.setItem('myFormData', JSON.stringify(myFormData));
+}
