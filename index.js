@@ -240,6 +240,7 @@ Array.from(portfolio.children).forEach((item, index) => {
     window.addEventListener('click', (e) => {
       if (e.target === modal) {
         modal.style.display = 'none';
+        console.log('hellooo');
       }
     });
   });
