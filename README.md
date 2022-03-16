@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://aboongm.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://aboongm.github.io/Portfolio-Project/)
 
 ## Getting Started
 
@@ -19,7 +19,7 @@ To get a local copy up and running, follow these simple steps.
 
 Run the following commands on the terminal of your local machine:
 
-- git clone https://github.com/aboongm/Portfolio-setup-and-mobile-version-skeleton.git
+- git clone https://aboongm.github.io/Portfolio-Project/
 - cd Portfolio-setup-and-mobile-version-skeleton
 
 ## Authors
