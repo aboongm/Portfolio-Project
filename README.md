@@ -4,6 +4,11 @@
 
 > Portfolio
 
+# Screen Shots
+## Desktop Version
+
+![desktop](https://user-images.githubusercontent.com/49184579/161923369-17b4045f-113e-43c2-ac8a-c44cc23914e8.png)
+
 ## Built With
 
 - HTML/CSS
