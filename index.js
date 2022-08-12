@@ -1,26 +1,26 @@
 const data = [
   {
     id: 'portfolio-1',
-    name: 'Tonic',
+    name: 'Rails Budget App',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Self',
+      role: 'Full Stack Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary: 'A Rails mobile web application where I can manage my budget.',
 
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'This is a Rails mobile web application where I can manage my budget. I have a list of transactions or expenses associated with a category, so that I can see how much money I spent and on what. I or any user can register and log in and can access their data which is private to the user. The data will be created as a user creates categories and add expenses on each of these categories',
     },
     image: {
-      mobile: './assets/portfolio/tonic.svg',
-      desktop: './assets/desktop/Snapshoot-Portfolio-1.svg',
+      mobile: './assets/portfolio/sen-mobile-3.png',
+      desktop: './assets/desktop/sen-desktop-1.png',
     },
     technologies: {
-      html: 'html',
-      css: 'css',
-      javascript: 'javascript',
+      html: 'Ruby',
+      css: 'Ruby On Rails',
+      javascript: 'PostgreSQL',
     },
     card: 'card-img-left',
   },
@@ -214,10 +214,10 @@ Array.from(portfolio.children).forEach((item, index) => {
           <ul class="tags ${data[index].id}">
           </ul>
           <div class="popup-actions">
-            <button class="btn btnImg" id="btn" type="button">See Live
+            <button class="btn btnImg" id="btn" type="button"><a href="https://rails-budget-app.herokuapp.com/">See Live</a>
               <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
             </button>
-            <button class="btn btnImg" id="btn" type="button">See Source
+            <button class="btn btnImg" id="btn" type="button"><a href="https://github.com/aboongm/rails-buget-app">See Source</a>
               <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
             </button>
           </div>
