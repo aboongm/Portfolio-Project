@@ -283,12 +283,12 @@ Array.from(portfolio.children).forEach((item, index) => {
           </ul>
           <div class="popup-actions">
             <a href="${data[index].live}">
-            <button class="btn btnImg" id="btn" type="button">See Live
+            <button class="btn btnImg" id="btn" type="button">Live
               <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
             </button>
             </a>
             <a href="${data[index].source}">
-            <button class="btn btnImg" id="btn" type="button">See Source
+            <button class="btn btnImg" id="btn" type="button">Source
               <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
             </button>
             </a>
