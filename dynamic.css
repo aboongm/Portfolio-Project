@@ -1,7 +1,7 @@
 .hamburger {
   background-color: transparent;
   border: 0;
-  color: #6070ff;
+  color: #dfe2f9;
   cursor: pointer;
   font-size: 20px;
   position: absolute;
@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 50px 20px;
+  padding: 80px 20px;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -37,10 +37,10 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #6070ff;
   mix-blend-mode: multiply;
   backdrop-filter: blur(5px);
-  opacity: 0.92;
+  opacity: 0.95;
+  background: linear-gradient(245deg, #404d52, gray);
 }
 
 .nav-ul li {
@@ -155,7 +155,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
+    color: #ffffff;
   }
 
   .hamburger {
@@ -168,8 +168,9 @@
   }
 
   .popup-img {
-    width: 100%;
+    width: 50%;
     height: 100%;
+    margin: 0 auto;
   }
 
   .popup-bottom {
@@ -187,11 +188,10 @@
 /* form error */
 .error-text {
   color: #fff;
-  font-size: 22px;
-  height: 60px;
+  font-size: 16px;
+  height: 32px;
   align-self: flex-start;
   width: 100%;
-  padding: 10px 14px;
   margin: 0 0 10px 0;
   box-sizing: border-box;
   border-radius: 4px;
