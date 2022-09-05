@@ -105,11 +105,11 @@
                 </a>
               </li>
             </ul>
-            <a
-              href="https://drive.google.com/file/d/1nDDEhuwF-XA47LO5ZrjhQPULyK6kIlNH/view?usp=sharing"
+            <form
+              action="https://drive.google.com/file/d/1nDDEhuwF-XA47LO5ZrjhQPULyK6kIlNH/view?usp=sharing"
             >
-              <button class="btn actions" type="button">Get my resume</button>
-            </a>
+              <input type="submit" value="Get my resume" class="btn actions" />
+            </form>
           </div>
           <div class="skill-list">
             <div>
@@ -271,11 +271,29 @@
                 love to help with it
               </p>
 
-              <form action="https://formspree.io/f/xqknqlnl" method="POST" class="form" onchange="saveUserDetails()">
+              <form
+                action="https://formspree.io/f/xqknqlnl"
+                method="POST"
+                class="form"
+                onchange="saveUserDetails()"
+              >
                 <label for="fullname"></label>
-                <input type="text" id="fullname" name="fullname" placeholder="Full name" required maxlength="30" />
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Full name"
+                  required
+                  maxlength="30"
+                />
                 <label for="email"></label>
-                <input type="email" name="email" id="email" placeholder="name@domain.com" required />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@domain.com"
+                  required
+                />
                 <label for="feedback"></label>
                 <textarea
                   rows="5"
