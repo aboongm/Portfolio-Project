@@ -5,9 +5,10 @@
 > Portfolio
 
 # Screen Shots
+
 ## Desktop Version
 
-![desktop](https://user-images.githubusercontent.com/49184579/161923369-17b4045f-113e-43c2-ac8a-c44cc23914e8.png)
+![Desktop](https://user-images.githubusercontent.com/49184579/188479498-a754ad35-b697-4bae-8b22-313caae9fc4c.png)
 
 ## Built With
 
