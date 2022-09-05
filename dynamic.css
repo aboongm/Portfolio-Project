@@ -73,8 +73,7 @@
 
 /* Modal Content */
 .modal-content {
-  background: #fff;
-  border: 1px solid #ebecf0;
+  background: linear-gradient(245deg, #404d52, #80a9bb);
   border-radius: 12px;
   padding: 20px 20px;
   width: 100%;
@@ -88,7 +87,7 @@
 }
 
 .popup-text-lg {
-  color: #172b4d;
+  color: #e8e8e9;
   font-size: 34px;
   font-weight: bolder;
   line-height: 48px;
@@ -102,6 +101,7 @@
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  color: #d1d0d0;
 }
 
 .sm-text-2 {
