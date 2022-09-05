@@ -1,103 +1,115 @@
 const data = [
   {
     id: 'portfolio-1',
-    name: 'Tonic',
+    name: 'Booking App',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Full Stack Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary:
+        'This app uses a Rails back-end as an API to send doctor details and appointment data to the react frontend of a booking application.',
 
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'This app uses a Rails back-end as an API to send doctor details and appointment data to the react frontend of a booking application.',
     },
     image: {
-      mobile: './assets/portfolio/tonic.svg',
-      desktop: './assets/desktop/Snapshoot-Portfolio-1.svg',
+      mobile: './assets/screenshots/mobile-booking-app.png',
+      desktop: './assets/screenshots/desktop-booking-app.png',
     },
     technologies: {
-      html: 'html',
-      css: 'css',
-      javascript: 'javascript',
+      html: 'ReactJS',
+      css: 'Rails',
+      javascript: 'PostgreSQL',
     },
     card: 'card-img-left',
+    source: 'https://github.com/aboongm/booking-app-frontend',
+    live: 'https://booking-app1.netlify.app',
   },
   {
     id: 'portfolio-2',
-    name: 'Multi Stories Post',
+    name: 'Rails Budget App',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Full Stack Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary:
+        'Rails Budget App allows a user to create categories and items in them to track expenses',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'The Ruby on Rails capstone project builds a mobile web application where users can manage their budget: They have a list of transactions associated with a category, so that they can see how much money they spent and on what.The Rails application that allowed the users to - register and log in, so that the data is private to them, create categories and add expenses on each of these categories, and see the expenses on each category.',
     },
     image: {
-      mobile: './assets/portfolio/multi-post-stories.svg',
-      desktop: './assets/desktop/Snapshoot-Portfolio-2.svg',
+      mobile: './assets/screenshots/desktop-budget-app.png',
+      desktop: './assets/screenshots/desktop-budget-app.png',
     },
     technologies: {
-      html: 'html',
-      ror: 'ruby on rails',
-      css: 'css',
-      javascript: 'javascript',
+      html: 'Ruby',
+      ror: 'Ruby On Rails',
+      css: 'PostgreSQL',
+      javascript: 'RSpec',
     },
     card: 'card-img-right',
+    source: 'https://github.com/aboongm/rails-buget-app',
+    live: 'https://rails-budget-app.herokuapp.com/',
   },
   {
     id: 'portfolio-3',
-    name: 'Tonic',
+    name: 'Space Travelers Hub',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microvers',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary:
+        "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
     },
     image: {
-      mobile: './assets/portfolio/tonic-2.svg',
-      desktop: './assets/desktop/Snapshoot-Portfolio-3.svg',
+      mobile: './assets/screenshots/mobile-space-travelers.png',
+      desktop: './assets/screenshots/desktop-space-travelers.png',
     },
     technologies: {
-      html: 'html',
-      ror: 'ruby on rails',
-      css: 'css',
-      javascript: 'javascript',
+      html: 'ReactJS',
+      ror: 'Redux',
+      css: 'Redux-thunk',
+      javascript: 'Bootstrap',
     },
     card: 'card-img-left',
+    source: 'https://aboongm.github.io/space-travelers-hub/',
+    live: 'https://github.com/aboongm/space-travelers-hub',
   },
   {
     id: 'portfolio-4',
-    name: 'Multi Stories Post',
+    name: 'Movie List',
     job: {
-      client: 'Canopy',
-      role: 'Back End Dev',
-      year: '2015',
+      client: 'Microverse',
+      role: 'Front End Dev',
+      year: '2022',
     },
     description: {
-      summary: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      summary:
+        'This is a TV Shows web site source from TVmaze API. In the website, a user can click on heart icon and get it recorded in Involvement API. Similarly, a user can write comment and get it recorded in Involvement API.',
       portfolio:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+        'This is a TV Shows web site source from TVmaze API. In the website, a user can click on heart icon and get it recorded in Involvement API. Similarly, a user can write comment and get it recorded in Involvement API.',
     },
     image: {
-      mobile: './assets/portfolio/multi-post-stories-2.svg',
-      desktop: './assets/desktop/Snapshoot-Portfolio-4.svg',
+      mobile: './assets/screenshots/desktop-movie-list.png',
+      desktop: './assets/screenshots/desktop-movie-list.png',
     },
     technologies: {
-      html: 'html',
-      ror: 'ruby on rails',
-      css: 'css',
-      javascript: 'javascript',
+      html: 'JavaScript',
+      ror: 'HTML',
+      css: 'CSS',
+      javascript: 'Webpack',
     },
     card: 'card-img-left',
+    source: 'https://github.com/aboongm/Kanban-Board-Capstone-Project',
+    live: 'https://aboongm.github.io/Kanban-Board-Capstone-Project/',
   },
 ];
 
@@ -107,6 +119,57 @@ const navigation = document.querySelector('.nav-ul');
 const textPortfolio = document.querySelector('.nav-text-1');
 const about = document.querySelector('.nav-text-2');
 const contact = document.querySelector('.nav-text-3');
+const right1 = document.querySelector('#right-1');
+const right2 = document.querySelector('#right-2');
+const right3 = document.querySelector('#right-3');
+const down1 = document.querySelector('#down-1');
+const down2 = document.querySelector('#down-2');
+const down3 = document.querySelector('#down-3');
+const languages = document.querySelector('.language-list');
+const frameworks = document.querySelector('.frameworks-2');
+const skills = document.querySelector('.skills-2');
+
+right1.addEventListener('click', (e) => {
+  e.preventDefault();
+  down1.classList.remove('hide');
+  languages.classList.remove('hide');
+  right1.classList.add('hide');
+});
+
+down1.addEventListener('click', (e) => {
+  e.preventDefault();
+  right1.classList.remove('hide');
+  down1.classList.add('hide');
+  languages.classList.add('hide');
+});
+
+right2.addEventListener('click', (e) => {
+  e.preventDefault();
+  down2.classList.remove('hide');
+  frameworks.classList.remove('hide');
+  right2.classList.add('hide');
+});
+
+down2.addEventListener('click', (e) => {
+  e.preventDefault();
+  right2.classList.remove('hide');
+  down2.classList.add('hide');
+  frameworks.classList.add('hide');
+});
+
+right3.addEventListener('click', (e) => {
+  e.preventDefault();
+  down3.classList.remove('hide');
+  skills.classList.remove('hide');
+  right3.classList.add('hide');
+});
+
+down3.addEventListener('click', (e) => {
+  e.preventDefault();
+  right3.classList.remove('hide');
+  down3.classList.add('hide');
+  skills.classList.add('hide');
+});
 
 // hamburger menu
 hamburger.addEventListener('click', (e) => {
@@ -123,6 +186,7 @@ hamburger.addEventListener('click', (e) => {
 close.addEventListener('click', () => {
   hamburger.classList.remove('hide');
   navigation.classList.remove('show');
+  close.classList.add('hide');
 });
 
 textPortfolio.addEventListener('click', (e) => {
@@ -130,6 +194,7 @@ textPortfolio.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 about.addEventListener('click', (e) => {
@@ -137,6 +202,7 @@ about.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 contact.addEventListener('click', (e) => {
@@ -144,6 +210,7 @@ contact.addEventListener('click', (e) => {
 
   navigation.classList.remove('show');
   hamburger.classList.remove('hide');
+  close.classList.add('hide');
 });
 
 // popup
@@ -177,7 +244,6 @@ Array.from(portfolio.children).forEach((child, index) => {
         <li>${data[index].technologies.css}</li>
         <li>${data[index].technologies.javascript}</li>
       </ul>
-
       <div class="actions" id="${data[index].id}">
         <button class="btn" id="btn" type="button">See Project</button>
       </div>
@@ -187,8 +253,10 @@ Array.from(portfolio.children).forEach((child, index) => {
 
 // modals
 Array.from(portfolio.children).forEach((item, index) => {
-  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener('click', () => {
-    modal.innerHTML = `
+  item.firstElementChild.lastElementChild.lastElementChild.firstElementChild.addEventListener(
+    'click',
+    () => {
+      modal.innerHTML = `
     <!-- Modal content -->
     <section class="modal-content">
       <div class="popup-text-group">
@@ -214,35 +282,40 @@ Array.from(portfolio.children).forEach((item, index) => {
           <ul class="tags ${data[index].id}">
           </ul>
           <div class="popup-actions">
+            <a href="${data[index].live}">
             <button class="btn btnImg" id="btn" type="button">See Live
               <img src="./assets/btnIcon-1.svg" alt="icon" id="imgIcon" />
             </button>
+            </a>
+            <a href="${data[index].source}">
             <button class="btn btnImg" id="btn" type="button">See Source
               <img src="./assets/cat.svg" alt="icon" id="imgIcon" />
             </button>
+            </a>
           </div>
         </div>
       </div>
     </section>
     `;
 
-    const ulList = document.querySelector('.popup-block .tags');
+      const ulList = document.querySelector('.popup-block .tags');
 
-    Object.keys(data[index].technologies).forEach((e) => {
-      ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
-    });
+      Object.keys(data[index].technologies).forEach((e) => {
+        ulList.innerHTML += `<li>${data[index].technologies[e]}</li>`;
+      });
 
-    modal.style.display = 'block';
-    const span = document.getElementsByClassName('close')[0];
-    span.addEventListener('click', () => {
-      modal.style.display = 'none';
-    });
-    window.addEventListener('click', (e) => {
-      if (e.target === modal) {
+      modal.style.display = 'block';
+      const span = document.getElementsByClassName('close')[0];
+      span.addEventListener('click', () => {
         modal.style.display = 'none';
-      }
-    });
-  });
+      });
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
+  );
 });
 
 // form validation
