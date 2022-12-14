@@ -25,7 +25,7 @@ const data = [
     },
     card: 'card-img-left',
     source: 'https://github.com/aboongm/news-app/tree/dev',
-    live: 'https://news-app-loy8.onrender.com/pages/world',
+    live: 'https://punfam.onrender.com/',
   },
   {
     id: 'portfolio-2',
