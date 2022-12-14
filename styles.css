@@ -10,17 +10,8 @@
 }
 
 body {
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
   font-size: 0.875rem;
   min-height: 100vh;
@@ -532,6 +523,30 @@ textarea:hover::placeholder {
 .img {
   width: 24px;
   padding: 6px;
+}
+
+.heading__box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.avatarImg {
+  margin-right: 100px;
+}
+
+.heading__box img {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .heading__box img {
+    display: inline;
+    width: 200px;
+    border-radius: 50%;
+    background: lightblue;
+  }
 }
 
 @media screen and (min-width: 1024px) {

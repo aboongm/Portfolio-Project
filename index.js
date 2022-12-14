@@ -1,6 +1,34 @@
 const data = [
   {
     id: 'portfolio-1',
+    name: 'The Punfam Times',
+    job: {
+      client: 'Punfam group',
+      role: 'Full Stack Dev',
+      year: '2022',
+    },
+    description: {
+      summary:
+        'This a full-stack online news rails application with access for subscribers, reporters, editors, and admin',
+
+      portfolio:
+        'This full-stack rails app allows a reporter to create news under different categories. Then an editor can select the news created by the reporters to be published for a particular day',
+    },
+    image: {
+      mobile: './assets/screenshots/mobile-news-app.png',
+      desktop: './assets/screenshots/desktop-news-app.png',
+    },
+    technologies: {
+      html: 'Rails',
+      css: 'PostgreSQL',
+      javascript: 'TailwindCSS',
+    },
+    card: 'card-img-left',
+    source: 'https://github.com/aboongm/news-app/tree/dev',
+    live: 'https://news-app-loy8.onrender.com/pages/world',
+  },
+  {
+    id: 'portfolio-2',
     name: 'Booking App',
     job: {
       client: 'Microverse',
@@ -27,39 +55,39 @@ const data = [
     source: 'https://github.com/aboongm/booking-app-frontend',
     live: 'https://booking-app1.netlify.app',
   },
-  {
-    id: 'portfolio-2',
-    name: 'Rails Budget App',
-    job: {
-      client: 'Microverse',
-      role: 'Full Stack Dev',
-      year: '2022',
-    },
-    description: {
-      summary:
-        'Rails Budget App allows a user to create categories and items in them to track expenses',
-      portfolio:
-        'The Ruby on Rails capstone project builds a mobile web application where users can manage their budget: They have a list of transactions associated with a category, so that they can see how much money they spent and on what.The Rails application that allowed the users to - register and log in, so that the data is private to them, create categories and add expenses on each of these categories, and see the expenses on each category.',
-    },
-    image: {
-      mobile: './assets/screenshots/desktop-budget-app.png',
-      desktop: './assets/screenshots/desktop-budget-app.png',
-    },
-    technologies: {
-      html: 'Ruby',
-      ror: 'Ruby On Rails',
-      css: 'PostgreSQL',
-      javascript: 'RSpec',
-    },
-    card: 'card-img-right',
-    source: 'https://github.com/aboongm/rails-buget-app',
-    live: 'https://rails-budget-app.herokuapp.com/',
-  },
+  // {
+  //   id: 'portfolio-2',
+  //   name: 'Rails Budget App',
+  //   job: {
+  //     client: 'Microverse',
+  //     role: 'Full Stack Dev',
+  //     year: '2022',
+  //   },
+  //   description: {
+  //     summary:
+  //       'Rails Budget App allows a user to create categories and items in them to track expenses',
+  //     portfolio:
+  //       'The Ruby on Rails capstone project builds a mobile web application where users can manage their budget: They have a list of transactions associated with a category, so that they can see how much money they spent and on what.The Rails application that allowed the users to - register and log in, so that the data is private to them, create categories and add expenses on each of these categories, and see the expenses on each category.',
+  //   },
+  //   image: {
+  //     mobile: './assets/screenshots/desktop-budget-app.png',
+  //     desktop: './assets/screenshots/desktop-budget-app.png',
+  //   },
+  //   technologies: {
+  //     html: 'Ruby',
+  //     ror: 'Ruby On Rails',
+  //     css: 'PostgreSQL',
+  //     javascript: 'RSpec',
+  //   },
+  //   card: 'card-img-right',
+  //   source: 'https://github.com/aboongm/rails-buget-app',
+  //   live: 'https://rails-budget-app.herokuapp.com/',
+  // },
   {
     id: 'portfolio-3',
     name: 'Space Travelers Hub',
     job: {
-      client: 'Microvers',
+      client: 'Microverse',
       role: 'Front End Dev',
       year: '2022',
     },
@@ -98,7 +126,7 @@ const data = [
         'This is a TV Shows web site source from TVmaze API. In the website, a user can click on heart icon and get it recorded in Involvement API. Similarly, a user can write comment and get it recorded in Involvement API.',
     },
     image: {
-      mobile: './assets/screenshots/desktop-movie-list.png',
+      mobile: './assets/screenshots/mobile-movie-list.png',
       desktop: './assets/screenshots/desktop-movie-list.png',
     },
     technologies: {
@@ -310,7 +338,7 @@ Array.from(portfolio.children).forEach((item, index) => {
           modal.style.display = 'none';
         }
       });
-    },
+    }
   );
 });
 
