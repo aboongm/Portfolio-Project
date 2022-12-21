@@ -30,7 +30,7 @@ a {
 
 .container {
   margin: 0 auto;
-  background-color: #bfc7cb;
+  background-color: #969a9d;
   display: flex;
   flex-direction: column;
 }
@@ -74,7 +74,7 @@ a {
   padding: 0 60px;
   position: fixed;
   width: 100%;
-  background: linear-gradient(245deg, #404d52, #5c747e);
+  background: linear-gradient(245deg, #404d52, #144255);
 }
 
 .nav-ul {
@@ -105,7 +105,8 @@ a {
 
   /* border-bottom-left-radius: 80px; */
   margin: 43px 0 0 0;
-  background: linear-gradient(245deg, #404d52, #80a9bb);
+  /* background: linear-gradient(245deg, #404d52, #80a9bb); */
+  background: linear-gradient(245deg, #345765, #14323e);
 }
 
 .lg-text-1 {
@@ -130,21 +131,21 @@ a {
 
 .sm-text-1 {
   font-size: 18px;
-  font-weight: 500;
-  color: #c0bfbf;
+  font-weight: 400;
+  color: #dbdbdb;
   margin: 10px 0;
 }
 
 .sm-text-1-1 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   color: #727171;
   margin: 10px 0;
 }
 
 .lg-text-3 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 24px;
   margin: 10px 0;
   color: #e8e8e9;
@@ -190,7 +191,7 @@ a {
 
   /* background-color: #fff; */
   border-radius: 16px;
-  background: linear-gradient(245deg, #789099, #758993);
+  background: linear-gradient(245deg, #384246, #144c64);
 }
 
 .card-img-left ul,
@@ -254,8 +255,8 @@ a {
 .sm-text-2 {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
-  color: #d1d0d0;
+  font-weight: 400;
+  color: #dbdbdb;
   margin: 10px 0;
 }
 
@@ -383,7 +384,7 @@ hr {
 
 /* contact me */
 .contact-me {
-  background: linear-gradient(245deg, #384246, #80a9bb);
+  background: linear-gradient(245deg, #384246, #144c64);
 
   /* border-top-left-radius: 80px; */
   padding-bottom: 10px;
@@ -414,10 +415,10 @@ hr {
 }
 
 .sm-text-3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: #d1d0d0;
+  color: #dbdbdb;
   margin: 0 20px 20px 20px;
 }
 
@@ -451,6 +452,7 @@ input[type='text'],
   box-sizing: border-box;
   border-radius: 4px;
   font-family: inherit;
+  font-size: 18px;
 }
 
 textarea {
@@ -462,6 +464,7 @@ textarea {
   background-color: #fbf8f7;
   margin: 0 0 10px 0;
   font-family: inherit;
+  font-size: 18px;
 }
 
 textarea:hover::placeholder {
@@ -594,7 +597,7 @@ textarea:hover::placeholder {
   }
 
   .normal-button {
-    background: linear-gradient(245deg, #404d52, #718f9d);
+    background: linear-gradient(245deg, #404d52, #144255);
   }
 
   .normal-button li {
@@ -613,7 +616,7 @@ textarea:hover::placeholder {
 
   .text-container {
     max-width: 800px;
-    margin: 76px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 
   .lg-text-1 {
@@ -654,7 +657,7 @@ textarea:hover::placeholder {
 
     /* background-color: #fff; */
     border-radius: 16px;
-    background: linear-gradient(245deg, #384246, #80a9bb);
+    background: linear-gradient(245deg, #384246, #144c64);
   }
 
   .card-img-right ul {

@@ -146,6 +146,10 @@
   gap: 10px;
 }
 
+.icon-image {
+  width: 24px;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-text-1,
   .nav-text-2,
