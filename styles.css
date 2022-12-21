@@ -597,7 +597,7 @@ textarea:hover::placeholder {
   }
 
   .normal-button {
-    background: linear-gradient(245deg, #404d52, #144255);
+    background: linear-gradient(245deg, #404d52, #0c394c);
   }
 
   .normal-button li {
