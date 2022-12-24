@@ -29,6 +29,34 @@ const data = [
   },
   {
     id: 'portfolio-2',
+    name: 'E-Commerce App',
+    job: {
+      client: 'Lei See',
+      role: 'Full Stack Dev',
+      year: '2022',
+    },
+    description: {
+      summary:
+        'This Ecommerce App buyers to buy products and sellers to sell products',
+
+      portfolio:
+        'This Ecommerce App allows 3 different types of users viz admin, buyer and seller. It allows the following features: Admin can change the role of any user, Seller can create and delete products, and Buyer can buy products',
+    },
+    image: {
+      mobile: './assets/screenshots/mobile-leisee.png',
+      desktop: './assets/screenshots/desktop-leisee.png',
+    },
+    technologies: {
+      html: 'ReactJS',
+      css: 'Rails',
+      javascript: 'PostgreSQL',
+    },
+    card: 'card-img-left',
+    source: 'https://github.com/aboongm/e-keithel',
+    live: 'https://leisee.netlify.app',
+  },
+  {
+    id: 'portfolio-3',
     name: 'Booking App',
     job: {
       client: 'Microverse',
@@ -83,34 +111,34 @@ const data = [
   //   source: 'https://github.com/aboongm/rails-buget-app',
   //   live: 'https://rails-budget-app.herokuapp.com/',
   // },
-  {
-    id: 'portfolio-3',
-    name: 'Space Travelers Hub',
-    job: {
-      client: 'Microverse',
-      role: 'Front End Dev',
-      year: '2022',
-    },
-    description: {
-      summary:
-        "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
-      portfolio:
-        "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
-    },
-    image: {
-      mobile: './assets/screenshots/mobile-space-travelers.png',
-      desktop: './assets/screenshots/desktop-space-travelers.png',
-    },
-    technologies: {
-      html: 'ReactJS',
-      ror: 'Redux',
-      css: 'Redux-thunk',
-      javascript: 'Bootstrap',
-    },
-    card: 'card-img-left',
-    source: 'https://aboongm.github.io/space-travelers-hub/',
-    live: 'https://github.com/aboongm/space-travelers-hub',
-  },
+  // {
+  //   id: 'portfolio-3',
+  //   name: 'Space Travelers Hub',
+  //   job: {
+  //     client: 'Microverse',
+  //     role: 'Front End Dev',
+  //     year: '2022',
+  //   },
+  //   description: {
+  //     summary:
+  //       "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
+  //     portfolio:
+  //       "This is a Space Traveler's Hub website. The website has 3 pages that list the rockets, the missions, and the reserved rockets and booked missions.",
+  //   },
+  //   image: {
+  //     mobile: './assets/screenshots/mobile-space-travelers.png',
+  //     desktop: './assets/screenshots/desktop-space-travelers.png',
+  //   },
+  //   technologies: {
+  //     html: 'ReactJS',
+  //     ror: 'Redux',
+  //     css: 'Redux-thunk',
+  //     javascript: 'Bootstrap',
+  //   },
+  //   card: 'card-img-left',
+  //   source: 'https://aboongm.github.io/space-travelers-hub/',
+  //   live: 'https://github.com/aboongm/space-travelers-hub',
+  // },
   {
     id: 'portfolio-4',
     name: 'Movie List',
@@ -301,7 +329,7 @@ Array.from(portfolio.children).forEach((item, index) => {
         <span class="close">&times;</span>
       </div>
       <ul>
-        <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1" /></li>
+        <li><img src="${data[index].image.mobile}" alt="icon" class="img-1-1 popup-img" /></li>
         <li><img src="${data[index].image.desktop}" alt="icon" class="img-1-2 popup-img" /></li>
       </ul>
       <div class="popup-bottom">

@@ -50,7 +50,7 @@ a {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  height: 44px;
+  height: 60px;
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
@@ -205,6 +205,10 @@ a {
   height: 100%;
   border-radius: 10px;
   object-fit: cover;
+}
+
+.popup-img {
+  width: 100%;
 }
 
 .img-1-2 {
