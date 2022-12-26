@@ -37,7 +37,7 @@ const data = [
     },
     description: {
       summary:
-        'This Ecommerce App buyers to buy products and sellers to sell products',
+        'This Ecommerce App allows buyers to buy products and sellers to sell products',
 
       portfolio:
         'This Ecommerce App allows 3 different types of users viz admin, buyer and seller. It allows the following features: Admin can change the role of any user, Seller can create and delete products, and Buyer can buy products',
