@@ -52,7 +52,7 @@ const data = [
       javascript: 'PostgreSQL',
     },
     card: 'card-img-left',
-    source: 'https://github.com/aboongm/e-keithel',
+    source: 'https://github.com/aboongm/leishi',
     live: 'https://leisee.netlify.app',
   },
   {
