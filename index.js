@@ -15,8 +15,8 @@ const data = [
         'This full-stack rails app allows a reporter to create news under different categories. Then an editor can select the news created by the reporters to be published for a particular day',
     },
     image: {
-      mobile: './assets/screenshots/mobile-news-app.png',
-      desktop: './assets/screenshots/desktop-news-app.png',
+      mobile: './assets/screenshots/mobile-punfamm.png',
+      desktop: './assets/screenshots/desktop-punfamm.png',
     },
     technologies: {
       html: 'Rails',
@@ -24,8 +24,8 @@ const data = [
       javascript: 'TailwindCSS',
     },
     card: 'card-img-left',
-    source: 'https://github.com/aboongm/news-app/tree/dev',
-    live: 'https://punfamm.fly.dev/pages/world',
+    source: 'https://github.com/aboongm/punfamm',
+    live: 'https://punfamm1.fly.dev/pages/world',
   },
   {
     id: 'portfolio-2',
